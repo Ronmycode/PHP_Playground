@@ -37,5 +37,5 @@ $countries_multi =[
         ]
     ];
 
-    echo json_encode($countries_multi, JSON_PRETTY_PRINT);
+    echo json_encode($countries_multi);
 ?>

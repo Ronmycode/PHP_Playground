@@ -1,4 +1,49 @@
 <?php
+#####################################
+######## control structures #########
+#####################################
+
+//Conditionals = if-else, if-elseif, switch
+//loops = for, while, do while
+
+function endingNumber($num){
+    if($num % 10 === 4){
+
+        echo "Number DOESN'T ends with a 4 digit"; 
+    }else{
+        echo "Number DOES ends with a 4 digit";
+    }
+}
+
+endingNumber(1234);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###################################
 ###### Creating clases in PHP #####
@@ -11,6 +56,7 @@
 $animal = new stdClass();
 $animal -> name = "Ruby";
 $animal -> type = "Dog";
+echo("<br>");
 var_dump($animal);
 
 
@@ -25,7 +71,7 @@ $student = new student();
 $student -> name = "Ron";
 $student -> lastName = "MyCode";
 $student -> age = 50;
-
+echo("<br>");
 var_dump($student);
 
 
